@@ -21,6 +21,6 @@ while other_bidders == True:
     if is_other_bidders == "no":
         other_bidders = False
         bid_winner = find_winner(bidders)
-print(f'Congrats to {bid_winner} for winning the bid!')
+print(f'Congrats to {bid_winner[0]} for winning the bid!')
 
 
